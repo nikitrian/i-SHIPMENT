@@ -1,6 +1,6 @@
 # i-SHIPMENT: A digital platform for the design of patient-centric supply chains
 
-Niki Triantafyllou, Maria M. Papathanasiou
+Niki Triantafyllou, Andrea Bernardi, Matthew Lakelin, Nilay Shah, & Maria M. Papathanasiou
 
 This is the official implementation of our *Scientific Reports* 2024 [paper](https://www.nature.com/articles/s41598-022-21290-5#Sec12).
 
@@ -12,7 +12,7 @@ In this repository, you can find the MIP instances for randomized demand scenari
 
 ## Citation
 If you use this work, please cite:
-
+'''
 @article{triantafyllou2022supplychain,
   author={Triantafyllou, Niki and Bernardi, Andrea and Lakelin, Matthew and Shah, Nilay and Papathanasiou, Maria M.},
   title={A digital platform for the design of patient-centric supply chains},
