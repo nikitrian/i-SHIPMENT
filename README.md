@@ -12,7 +12,7 @@ In this repository, you can find the MIP instances for randomized demand scenari
 
 ## Citation
 If you use this work, please cite:
-'''
+```
 @article{triantafyllou2022supplychain,
   author={Triantafyllou, Niki and Bernardi, Andrea and Lakelin, Matthew and Shah, Nilay and Papathanasiou, Maria M.},
   title={A digital platform for the design of patient-centric supply chains},
