@@ -2,7 +2,7 @@
 
 Niki Triantafyllou, Andrea Bernardi, Matthew Lakelin, Nilay Shah, & Maria M. Papathanasiou
 
-This is the official implementation of our *Scientific Reports* 2024 [paper](https://www.nature.com/articles/s41598-022-21290-5#Sec12).
+This is the official implementation of our *Scientific Reports* 2022 [paper](https://www.nature.com/articles/s41598-022-21290-5#Sec12).
 
 ## Model
 In this repository, you can find the python code for the i-SHIPMENT model (model_CART_iSHIPMENT.py). The i-SHIPMENT model is a flow-based facility location - patient allocation MILP model for the optimization of personalised CAR T-cell therapy manufacturing and distribution.
