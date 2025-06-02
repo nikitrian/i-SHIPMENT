@@ -63,7 +63,6 @@ model.RATIO = Var(model.m, model.t, within=NonNegativeReals) # the percentage of
 
 
 # VARIABLES
-model.TOTCOST = Var() # Total cost
 model.CAP = Var(model.m, model.t) # Capacity of MS m at time t
 model.TRT = Var(model.p) # Total return time of therapy
 model.ATRT = Var() # Average return time
