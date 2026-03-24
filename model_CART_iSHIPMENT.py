@@ -40,8 +40,8 @@ model.ND = Param(default = 18) # Maximum turnaround (vein-to-vein) time
 
 # Binary VARIABLES
 model.E1 = Var(model.m, within=Binary) # 1 if manufacturing facility m is established
-model.X1 = Var(model.c, model.m, within=Binary) # 1 if a match between LS site c and MS site m is established
-model.X2 = Var(model.m, model.h, within=Binary) # 1 if a match between MS site m and a hospital h is established
+model.X1 = Var(model.c, model.m) # 1 if a match between LS site c and MS site m is established - UNIMODULARITY no need to define as binary
+model.X2 = Var(model.m, model.h) # 1 if a match between MS site m and a hospital h is established - UNIMODULARITY no need to define as binary
 model.Y1 = Var(model.p, model.c, model.m, model.j, model.t, within=Binary) # 1 if a sample p is transferred from a LS site c to a MS site m via mode j at time t
 model.Y2 = Var(model.p, model.m, model.h, model.j, model.t, within=Binary) # 1 if a sample p is transferred from a MS site m to a hospital h via mode j at time t
 
